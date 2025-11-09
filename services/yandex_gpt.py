@@ -61,7 +61,7 @@ def generate_clothing_recommendation(city: str, weather_desc: str, temp_celsius:
         "completionOptions": {
             "stream": False,
             "temperature": 0.4,
-            "maxTokens": "200"
+            "maxTokens": "256"
         },
         "messages": [
             {"role": "system", "text": "Ты даёшь практические советы по выбору одежды с учётом погоды."},
